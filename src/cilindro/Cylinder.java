@@ -10,10 +10,10 @@ public class Cylinder {
 
         if (radius == -1 || height == -1) {
             System.out.println("Error: invalid value, try again");
+        } else {
+            System.out.println("Area: " + area(radius, height) + " u^2");
+            System.out.println("Volume: " + volume(radius, height) + " u^3");
         }
-
-        System.out.println("Area: " + area(radius, height) + " u^2");
-        System.out.println("Volume: " + volume(radius, height) + " u^3");
     }
 
     public static double area(double _radius, double _height) {
@@ -35,7 +35,7 @@ public class Cylinder {
         System.out.println("Enter the value of " + _message + ": ");
         double value = scanner.nextDouble();
 
-        if (value == 0.0) {
+        if (value <= 0.0) {
             return -1;
         } else {
             return value;
