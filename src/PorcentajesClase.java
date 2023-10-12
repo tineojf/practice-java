@@ -13,7 +13,6 @@ public class PorcentajesClase {
 
         System.out.println("Porcentaje de hombres: " + obtenerPorcentaje(hombre, total) + "%");
         System.out.println("Porcentaje de mujeres: " + obtenerPorcentaje(mujer, total) + "%");
-
     }
 
     public static double ingresarValor(String _name) {
