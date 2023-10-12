@@ -1,4 +1,4 @@
-package porcentaje;// Return porcentaje de H y M en clase
+package porcentaje;
 
 import java.util.Scanner;
 
