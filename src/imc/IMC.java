@@ -85,7 +85,10 @@ public class IMC {
     // To String
     @Override
     public String toString() {
-        return "IMC: " + this.imc + "\n" + "Classification: " + this.classification;
+        return "Weight: " + this.weight + " kg\n"
+                + "Height: " + this.height + " m\n"
+                + "IMC: " + this.imc + "\n"
+                + "Classification: " + this.classification;
     }
 
     // Methods
