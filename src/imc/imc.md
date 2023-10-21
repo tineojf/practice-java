@@ -2,6 +2,8 @@
 
 ## Input
 
+- IMC values
+- IMC classification
 - Weight (kg)
 - Height (m)
 
