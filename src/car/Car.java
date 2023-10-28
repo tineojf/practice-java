@@ -35,5 +35,56 @@ public class Car {
     }
 
     // Setters & Getters
+    public double getVelocidad() {
+        return velocidad;
+    }
 
+    public void setVelocidad(double velocidad) {
+        this.velocidad = velocidad;
+    }
+
+    // To String
+    @Override
+    public String toString() {
+        return "Car: \n" +
+                "Marca: " + marca + "\n" +
+                "Modelo: " + modelo + "\n" +
+                "Motor: " + motor + "\n" +
+                "Tipo de combustible: " + tipoCombustible + "\n" +
+                "Tipo de automovil: " + tipoAutomovil + "\n" +
+                "Puertas: " + puertas + "\n" +
+                "Asientos: " + asientos + "\n" +
+                "Velocidad máxima: " + maxVelocidad + "\n" +
+                "Color: " + color + "\n" +
+                "Velocidad actual: " + velocidad;
+    }
+
+    // Methods
+    public void acelerar(double aceleracion) {
+        if (aceleracion > 0 && this.velocidad + aceleracion <= this.maxVelocidad) {
+            this.velocidad += aceleracion;
+        } else {
+            System.out.println("La aceleración debe ser mayor a 0 y la velocidad no debe superar la máxima");
+        }
+    }
+
+    public void desacelerar(double desaceleracion) {
+        if (desaceleracion > 0 && this.velocidad - desaceleracion >= 0) {
+            this.velocidad -= desaceleracion;
+        } else {
+            System.out.println("La desaceleración debe ser mayor a 0");
+        }
+    }
+
+    public void frenar() {
+        this.velocidad = 0;
+    }
+
+    public void calcularTiempo(double distancia) {
+        if (this.velocidad > 0) {
+            System.out.println("El tiempo es: " + distancia / this.velocidad);
+        } else {
+            System.out.println("El auto está detenido");
+        }
+    }
 }
