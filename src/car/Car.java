@@ -81,7 +81,7 @@ public class Car {
     }
 
     public void calcularTiempo(double distancia) {
-        if (this.velocidad > 0) {
+        if (this.velocidad > 0 && distancia > 0) {
             System.out.println("El tiempo es: " + distancia / this.velocidad);
         } else {
             System.out.println("El auto está detenido");
