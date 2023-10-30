@@ -8,6 +8,7 @@ public class Figure {
     }
 
     // To String
+    @Override
     public String toString() {
         return "Name: " + this.name + "\n";
     }
