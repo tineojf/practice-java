@@ -9,6 +9,8 @@ public class Main {
         cuentaAhorro.depositar(100);
         System.out.println();
         cuentaAhorro.aplicarInteres();
+        System.out.println();
+        cuentaAhorro.retirar(50);
         System.out.println("--------------------");
     }
 }
