@@ -1,6 +1,6 @@
 # Figure class and Triangle, Parallelogram, Rectangle, Square, Circle subclasses
 
-## Run
+## Clases & Subclases
 
 Modela varias figuras geométricas:
 
@@ -9,7 +9,7 @@ Modela varias figuras geométricas:
 - El cuadrado, la longitud de sus lados en centímetros.
 - El triángulo, sus tres lados.
 
-## Requirements
+## Metodos
 
 Se requieren métodos para determinar el área y el perímetro (POR AÑADIR) de cada
 figura geométrica. Además, para el triángulo rectángulo se requiere:
