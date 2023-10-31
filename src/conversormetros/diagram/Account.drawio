@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" modified="2023-10-31T16:46:33.006Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Wf0yqUTj1jtZqccdrj7w" version="22.0.8" type="device">
+  <diagram name="Page-1" id="pImxxgkzjdJv5OVogXcW">
+    <mxGraphModel dx="1259" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qPXU1aCihd12mrtZxSVJ-7" value="ConversorMetros" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="260" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qPXU1aCihd12mrtZxSVJ-8" value="- metros: double&lt;br&gt;- CENTIMETROS:double = 100 {readOnly}&lt;br&gt;- MILIMETROS: double = 1000 {readOnly}&lt;br&gt;- PULGADAS: double = 39.37 {readOnly}&lt;br&gt;- PIES: double = 3.28 {readOnly}&lt;br&gt;- YARDAS: double = 1.09 {readOnly}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qPXU1aCihd12mrtZxSVJ-7">
+          <mxGeometry y="26" width="260" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="qPXU1aCihd12mrtZxSVJ-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qPXU1aCihd12mrtZxSVJ-7">
+          <mxGeometry y="120" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qPXU1aCihd12mrtZxSVJ-10" value="+ constructor()&lt;br&gt;- setters()&lt;br&gt;+ getters()&lt;br&gt;+ ToString()&lt;br&gt;+ redondearDecimales(int decimales): double&lt;br&gt;+ toCM(); double&lt;br&gt;+ toMM(): double&lt;br&gt;+ toIN(): double&lt;br&gt;+ toFT(): double&lt;br&gt;+ toYD(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qPXU1aCihd12mrtZxSVJ-7">
+          <mxGeometry y="128" width="260" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="qPXU1aCihd12mrtZxSVJ-13" value="«&lt;b&gt;Conversiones&amp;nbsp;&lt;/b&gt;1 metro =»&lt;br&gt;100 cm&lt;br&gt;1000 mm&lt;br&gt;39.37 in&lt;br&gt;3.28 ft&lt;br&gt;1.09 yd&lt;br&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="180" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
