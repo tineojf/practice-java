@@ -55,13 +55,13 @@ public class Movie {
         return "Movie: " + this.name + "\n"
                 + "Director: " + this.director + "\n"
                 + "Genre: " + this.genre + "\n"
-                + "Duration: " + this.duration + " min\n"
+                + "Duration: " + this.duration + "min\n"
                 + "Year: " + this.year + "\n"
                 + "Rating: " + this.rating + "\n";
     }
 
     // Methods
-    private boolean esPeliculaEpica() {
+    public boolean esPeliculaEpica() {
         return this.duration >= 180;
     }
 
@@ -81,7 +81,7 @@ public class Movie {
         }
     }
 
-    private boolean esSimilar(Movie movie) {
+    public boolean esSimilar(Movie movie) {
         return this.genre == movie.genre && this.rating == movie.rating;
     }
 }
