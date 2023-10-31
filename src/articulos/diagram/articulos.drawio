@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2023-10-31T19:40:01.713Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4pkU07ZbqoHWJWnr8ew6" version="22.0.8" type="device">
+  <diagram name="Page-1" id="pDOuHD7mY35boJG7kxlu">
+    <mxGraphModel dx="868" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="39BotFT90OuQuKaCQ5Jx-1" value="Articulo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="90" width="430" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="39BotFT90OuQuKaCQ5Jx-2" value="- titulo: String&lt;br&gt;- autor: String&lt;br&gt;- palabrasClave: String[]&lt;br&gt;- nombrePublicacion: String&lt;br&gt;- year: int&lt;br&gt;- resumen: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="39BotFT90OuQuKaCQ5Jx-1">
+          <mxGeometry y="26" width="430" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="39BotFT90OuQuKaCQ5Jx-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="39BotFT90OuQuKaCQ5Jx-1">
+          <mxGeometry y="120" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="39BotFT90OuQuKaCQ5Jx-4" value="+ constructor(titulo, autor)&lt;br&gt;+ constructor(titulo, autor, palabrasClave, nombrePublicacion, year)&lt;br&gt;+ constructor(titulo, autor, palabrasClave, nombrePublicacion, year, resumen)&lt;br&gt;- setters()&lt;br&gt;+ getters()&lt;br&gt;+ toString()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="39BotFT90OuQuKaCQ5Jx-1">
+          <mxGeometry y="128" width="430" height="102" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
