@@ -61,4 +61,24 @@ public class Cuenta {
             System.out.println("No se puede retirar el monto ingresado");
         }
     }
+
+    public boolean compararSaldo(Cuenta cuenta) {
+        if (this.getSaldo() >= cuenta.getSaldo()){
+            System.out.println("Esta cuenta es mayor o igual a la cuenta ingresada");
+            return true;
+        } else {
+            System.out.println("Esta cuenta es menor a la cuenta ingresada");
+            return false;
+        }
+    }
+
+    public void transferir(Cuenta cuenta, double monto) {
+        if (monto > 0 && this.getSaldo() >= monto) {
+            this.retirar(monto);
+            cuenta.depositar(monto);
+        } else {
+            System.out.println("No se puede transferir el monto ingresado" +
+                    " o tiene saldo insuficiente");
+        }
+    }
 }
