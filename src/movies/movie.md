@@ -28,9 +28,9 @@ privados para los set y públicos para los get.
   bla 2.5 devuelve una valoración subjetiva.
   ```text
   [0, 2] Muy mala
-  (7, 8] Buena
   (2, 5] Mala
   (5, 7] Regular
+  (7, 8] Buena
   (8, 10] Excelente
   ```
 - El método privado boolean esSimilar() compara la película actual
