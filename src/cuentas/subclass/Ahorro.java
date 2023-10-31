@@ -13,7 +13,7 @@ public class Ahorro extends cuentas.Cuenta {
     @Override
     public String toString() {
         return super.toString() +
-                "Interes: " + interes + "\n";
+                "\nInteres: " + interes + "\n";
     }
 
     // Methods
